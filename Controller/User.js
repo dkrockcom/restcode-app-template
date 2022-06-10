@@ -1,4 +1,4 @@
-const Controller = require('restcode/Controller');
+const Controller = require('rest-code/Controller');
 
 class User extends Controller {
     isAuthEnabled = false;

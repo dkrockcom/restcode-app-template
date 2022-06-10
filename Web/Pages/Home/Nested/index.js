@@ -1,4 +1,4 @@
-const WebPage = require('restcode/WebPage');
+const WebPage = require('rest-code/WebPage');
 
 class Nested extends WebPage {
     isAuthEnabled = false;
