@@ -1,5 +1,5 @@
-const RestFramework = require('rest-framework');
-const StartupBase = require('rest-framework/StartupBase');
+const RestFramework = require('restcode');
+const StartupBase = require('restcode/StartupBase');
 const TestTask = require('./Task/TestTask');
 
 class Startup extends StartupBase {

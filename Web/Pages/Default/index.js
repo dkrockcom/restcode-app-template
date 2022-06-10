@@ -1,4 +1,4 @@
-const WebPage = require('rest-framework/WebPage');
+const WebPage = require('restcode/WebPage');
 
 class Default extends WebPage {
     isAuthEnabled = false;
