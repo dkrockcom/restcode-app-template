@@ -1,4 +1,5 @@
-const mongoose = require('mongoose');
+const Framework = require('rest-code');
+const mongoose = Framework.Mongoose;
 const Schema = mongoose.Schema
 
 const schema = new Schema({

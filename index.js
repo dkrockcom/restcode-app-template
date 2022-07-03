@@ -4,8 +4,8 @@ const TestTask = require('./Task/TestTask');
 
 class Startup extends StartupBase {
     async onConfigure(app, server) {
+        RestFramework.TaskManager.Add(new TestTask(), '* */1 * * * *', "TestTask");
         super.onConfigure(app, server)
-        RestFramework.TaskManager.Add(new TestTask(), '* */5 * * * *', "TestTask");
     }
 
     async onException(error) {
